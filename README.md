@@ -1,1 +1,2 @@
-# 100DaysOfCode, this repo will serve as a store for my solutions on leet code
+# 100DaysOfCode, 
+this repo will serve as a store for my solutions on leet code
