@@ -6,8 +6,6 @@ public class BackspaceStringCompare {
     public static String transform(String str){
         String cleaned="";
         Stack<Character> s = new Stack<>();
-
-        
         for(Character i : str.toCharArray()){
             if(i=='#'){
                 if(!s.empty()){

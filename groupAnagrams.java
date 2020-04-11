@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Collections;
 
 class groupAnagrams{
 
@@ -18,6 +20,13 @@ class groupAnagrams{
             map.get(sorted).add(cur);
         }
         
+        //System.out.println(map.values());
+        // int mm = Collections.min(map.values());
+        Object myKey = map.values().toArray()[0].length();
+        System.out.println(myKey);
+        // for(List<String> i : map.values()){
+        //     System.out.print(i.size());
+        // }
         groupedAnagrams.addAll(map.values());
         return groupedAnagrams;
     
